@@ -1,10 +1,8 @@
 const path = require('path');
 
 module.exports = {
-  rulesDirectory: [
-    path.join(path.dirname(require.resolve('tslint-config-airbnb')), './'),
-  ],
-  rules: {
+  "extends": "tslint-config-airbnb",
+  "rules": {
     "no-inferrable-types": [true, "ignore-params"],
     "trailing-comma": false,
     "no-increment-decrement": false,
