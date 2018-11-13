@@ -2,9 +2,7 @@ const path = require('path');
 
 module.exports = {
   rulesDirectory: [
-    path.join(path.dirname(require.resolve('tslint-consistent-codestyle')), './'),
-    path.join(path.dirname(require.resolve('tslint-eslint-rules')), 'dist/rules'),
-    path.join(path.dirname(require.resolve('tslint-microsoft-contrib')), './'),
+    path.join(path.dirname(require.resolve('tslint-config-airbnb')), './'),
   ],
   rules: {
     "no-inferrable-types": [true, "ignore-params"],
