@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "extends": ["tslint-config-airbnb", "tslint-react", "tslint-config-prettier"],
+  "extends": ["tslint-config-airbnb", "tslint-react"],
   "rules": {
     "no-inferrable-types": [true, "ignore-params"],
     "trailing-comma": false,
