@@ -12,7 +12,7 @@ module.exports = {
     "import-name": false,
     "object-shorthand-properties-first": false,
     "align": false,
-    "max-line-length": [true, {"limit": 120, "ignore-pattern": "^import |^export {(.*?)}"}],
+    "max-line-length": [true, {"limit": 180, "ignore-pattern": "^import |^export {(.*?)}"}],
     "object-literal-sort-keys": false,
     "no-implicit-dependencies": [true, "dev"],
     "interface-name":false,
