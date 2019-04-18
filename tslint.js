@@ -1,5 +1,3 @@
-const path = require('path');
-
 module.exports = {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "extends": ["tslint-config-airbnb", "tslint-react"],
@@ -17,8 +15,8 @@ module.exports = {
     "no-implicit-dependencies": [true, "dev"],
     "interface-name":false,
     "no-bitwise": false,
-    "quotemark": [true, "single", "avoid-escape", "avoid-template"],
     "no-console": false,
     "function-name": false,
+    "quotemark": [true, "single", "backtick", "avoid-escape", "avoid-template"],
   },
 };
