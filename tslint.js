@@ -15,8 +15,8 @@ module.exports = {
     "no-bitwise": false,
     "no-console": false,
     "function-name": false,
+    "array-type": [true, "array-simple"],
     "quotemark": [true, "single", "backtick", "avoid-escape", "avoid-template"],
-    "no-implicit-dependencies": [true, "dev", "optional"],
     "interface-name": [true, "always-prefix"],
     "align": [true, "parameters", "arguments", "members", "elements", "statements"]
   },
