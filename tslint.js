@@ -18,6 +18,7 @@ module.exports = {
     "array-type": [true, "array-simple"],
     "quotemark": [true, "single", "backtick", "avoid-escape", "avoid-template"],
     "interface-name": [true, "always-prefix"],
-    "align": [true, "parameters", "arguments", "members", "elements", "statements"]
+    "align": [true, "parameters", "arguments", "members", "elements", "statements"],
+    "space-before-function-paren": [true, "never"]
   },
 };
