@@ -2,7 +2,7 @@
   "$schema": "http://json.schemastore.org/package",
   "name": "@xyo-network/config-tslint",
   "description": "A TSLint config for XY/XYO JavaScript Style",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "author": "Arie Trouw",
   "bugs": {
     "url": "https://github.com/XYOracleNetwork/config-tslint/issues"
