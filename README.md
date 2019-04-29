@@ -1,10 +1,12 @@
-![Logo](xylogo.png)
+[logo]: https://cdn.xy.company/img/brand/XY_Logo_GitHub.png
+
+[![logo]](https://xy.company)
 
 # XYO Shared TS-Lint Configuration (config-tslint)
 
-## Branches
+[![NPM](https://nodei.co/npm/@xyo-network/config-tslint.png)](https://nodei.co/npm/@xyo-network/config-tslint/)
 
-### Master
+[![Build Status](https://travis-ci.com/XYOracleNetwork/config-tslint.svg?branch=develop)](https://travis-ci.com/XYOracleNetwork/config-tslint)
 
 ## Description
 
