@@ -2,10 +2,10 @@
   "$schema": "http://json.schemastore.org/package",
   "name": "@xyo-network/config-tslint",
   "description": "A TSLint config for XY/XYO JavaScript Style",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "author": "Arie Trouw",
   "scripts": {
-    "build": "copyfiles src/tslint.js dist -u",
+    "build": "copyfiles -u 1 src/**/* dist",
     "test": "echo 0"
   },
   "bugs": {
@@ -35,7 +35,7 @@
     "tslint": "^5.8.0"
   },
   "files": [
-    "dist/*"
+    "dist"
   ],
   "repository": "github:XYOracleNetwork/config-tslint"
 }
