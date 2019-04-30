@@ -8,11 +8,11 @@ cache:
 install:
   - yarn install
   - yarn build
+before_deploy:
+  - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
 deploy:
   provider: script
   skip_cleanup: true
-  script:
-    echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
-    yarn publish
+  script: npm version patch && npm publish
   on:
     branch: master
