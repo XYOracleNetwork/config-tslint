@@ -14,6 +14,6 @@ before_deploy:
 deploy:
   provider: script
   skip_cleanup: true
-  script: yarn publish --patch
+  script: yarn publish --new-version patch && git push
   on:
     branch: master
