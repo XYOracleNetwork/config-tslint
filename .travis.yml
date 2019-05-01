@@ -9,11 +9,9 @@ install:
   - yarn install
 script:
   - yarn build
-before_deploy:
+after_script:
+  script:
   - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
-deploy:
-  provider: script
-  skip_cleanup: true
-  script: yarn publish --new-version patch && git push
+  - yarn publish --new-version patch
   on:
     branch: master
