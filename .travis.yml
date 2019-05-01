@@ -9,8 +9,10 @@ install:
   - yarn install
 script:
   - yarn build
-after_script:
+  - git branch
+after_success:
   script:
+  - git branch
   - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
   - yarn publish --new-version patch
   on:
